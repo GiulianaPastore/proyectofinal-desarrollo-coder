@@ -1,0 +1,57 @@
+/*Header*/
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+  
+    li {
+      list-style: none;
+      font-family: sans-serif;
+      font-size: 1.3rem;
+      display: inline-block;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+      padding: 0px 20px;
+      text-align: center;
+    }
+  
+    h1 {
+      color: rgba(228, 142, 13, 0.842);
+      text-align: center;
+      font-size: 3rem;
+      font-family: magneto;
+    }
+  }
+
+  .navegador{
+    display: inline-block;
+    
+    
+}
+.logo a{ 
+
+    color:rgba(228, 142, 13, 0.842);
+    cursor: pointer;
+}
+
+.menuIcono {
+    img {
+      width: 30px;
+      height: 30px;
+      border-radius: 2px;
+    }
+  
+    display: none;
+  }
+  
+  #check {
+    display: none;
+  }
+  

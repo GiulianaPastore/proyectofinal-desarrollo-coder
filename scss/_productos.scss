@@ -1,0 +1,26 @@
+.padre {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin: 3rem 0;
+  }
+  
+  .hijo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: aliceblue;
+    font-family: sans-serif;
+    margin: 1rem;
+  }
+  
+  .hijoImagen {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }

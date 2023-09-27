@@ -1,0 +1,33 @@
+.mainCafe {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menuPanaderia, .menuCafeteria {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+  }
+  
+  .menu-panaderia h2, .menu-cafeteria h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .menu-panaderia ul, .menu-cafeteria ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-panaderia li, .menu-cafeteria li {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .menu-panaderia .precio, .menu-cafeteria .precio {
+    font-weight: bold;
+  }
+  
